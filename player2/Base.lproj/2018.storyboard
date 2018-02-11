@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Q7q-mc-bQZ">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Home" id="BYZ-38-t0r" customClass="ViewController" customModule="player2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg__no_logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="sir-zF-DUo">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start the tour at the red pin" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9A-fa-5hm">
+                                <rect key="frame" x="20" y="189" width="374" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="Xm9-IX-GYz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.92519986629999995" green="0.91383004189999995" blue="0.90589261050000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WELCOME" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wqG-fO-vHL">
+                                <rect key="frame" x="101" y="87" width="293" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="ZFU-7S-nOX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <color key="textColor" red="0.92519986629999995" green="0.91383004189999995" blue="0.90589261050000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="d.png" translatesAutoresizingMaskIntoConstraints="NO" id="N8d-jW-zwZ">
+                                <rect key="frame" x="20" y="87" width="73" height="73"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="Vrc-iz-GrM"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beginnen Sie an der roten Nadel" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WGl-GJ-dns">
+                                <rect key="frame" x="20" y="217" width="374" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="awq-ms-mKf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.82203543189999995" green="0.74915027619999996" blue="0.74120432140000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WILLKOMMEN" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XkY-1T-Nn3">
+                                <rect key="frame" x="101" y="135" width="293" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="r3g-Sn-RPH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <color key="textColor" red="0.82203543189999995" green="0.74915027619999996" blue="0.74120432140000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" mapType="standard" showsUserLocation="YES" showsPointsOfInterest="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dca-Py-HbQ">
+                                <rect key="frame" x="0.0" y="260" width="414" height="156"/>
+                                <color key="tintColor" red="0.82203543186187744" green="0.74915027618408203" blue="0.74120432138442993" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </mapView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n9N-ZM-ZZX" userLabel="Bar Unten">
+                                <rect key="frame" x="16" y="679" width="382" height="37"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="hzx-JJ-f48">
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="PoI-PO-Kcp"/>
+                                        </constraints>
+                                        <segments>
+                                            <segment title="Deutsch"/>
+                                            <segment title="English"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.9282994923857868" green="0.91489438433403614" blue="0.90713464938508226" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </segmentedControl>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Dd-d0-n8h">
+                                        <rect key="frame" x="204" y="0.0" width="84" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="84" id="4UO-mY-dbF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="tintColor" red="0.42835834622383118" green="0.59581929445266724" blue="0.6196749210357666" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="START">
+                                            <color key="titleColor" red="0.92519986629999995" green="0.91383004189999995" blue="0.90589261050000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="playButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yJC-bt-0tN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAA-gI-JFc">
+                                        <rect key="frame" x="143" y="0.0" width="28" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="HAA-gI-JFc" secondAttribute="height" multiplier="1:1" id="Pyu-lZ-2n3"/>
+                                        </constraints>
+                                        <state key="normal" title="i" image="infobutton.png"/>
+                                        <connections>
+                                            <segue destination="2XT-ZC-n8I" kind="show" id="xlW-c1-Xor"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="n9N-ZM-ZZX" secondAttribute="height" multiplier="72:7" id="pRA-5B-6Oz"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2908592109" green="0.3239596287" blue="0.37461544689999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="sir-zF-DUo" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3Sk-8Z-d4N"/>
+                            <constraint firstItem="sir-zF-DUo" firstAttribute="trailing" secondItem="Dca-Py-HbQ" secondAttribute="trailing" id="69d-l6-fuu"/>
+                            <constraint firstItem="N8d-jW-zwZ" firstAttribute="bottom" secondItem="XkY-1T-Nn3" secondAttribute="bottom" id="AoM-ns-opU"/>
+                            <constraint firstItem="sir-zF-DUo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="EQj-7Z-iou"/>
+                            <constraint firstItem="N8d-jW-zwZ" firstAttribute="leading" secondItem="f9A-fa-5hm" secondAttribute="leading" id="Efy-2y-OAe"/>
+                            <constraint firstItem="f9A-fa-5hm" firstAttribute="trailing" secondItem="WGl-GJ-dns" secondAttribute="trailing" id="EhN-TO-2gc"/>
+                            <constraint firstItem="lB1-ji-HfJ" firstAttribute="trailing" secondItem="n9N-ZM-ZZX" secondAttribute="trailing" constant="16" id="F4o-mP-K86"/>
+                            <constraint firstItem="N8d-jW-zwZ" firstAttribute="top" secondItem="wqG-fO-vHL" secondAttribute="top" id="Klu-zW-rJP"/>
+                            <constraint firstAttribute="trailing" secondItem="sir-zF-DUo" secondAttribute="trailing" id="NT4-kc-UEm"/>
+                            <constraint firstItem="N8d-jW-zwZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="OW2-WX-2vJ"/>
+                            <constraint firstItem="n9N-ZM-ZZX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tmd-bJ-mIO"/>
+                            <constraint firstItem="sir-zF-DUo" firstAttribute="leading" secondItem="Dca-Py-HbQ" secondAttribute="leading" id="XqJ-3G-X5g"/>
+                            <constraint firstItem="N8d-jW-zwZ" firstAttribute="top" secondItem="lB1-ji-HfJ" secondAttribute="top" constant="23" id="ahT-iJ-a4v"/>
+                            <constraint firstItem="WGl-GJ-dns" firstAttribute="top" secondItem="f9A-fa-5hm" secondAttribute="bottom" constant="2" id="bo1-rg-AJn"/>
+                            <constraint firstItem="WGl-GJ-dns" firstAttribute="centerX" secondItem="Dca-Py-HbQ" secondAttribute="centerX" id="eOL-yX-8Bz"/>
+                            <constraint firstItem="wqG-fO-vHL" firstAttribute="trailing" secondItem="XkY-1T-Nn3" secondAttribute="trailing" id="eoz-Ud-T5a"/>
+                            <constraint firstItem="XkY-1T-Nn3" firstAttribute="top" secondItem="wqG-fO-vHL" secondAttribute="bottom" constant="26" id="gox-8a-eMv"/>
+                            <constraint firstItem="XkY-1T-Nn3" firstAttribute="trailing" secondItem="f9A-fa-5hm" secondAttribute="trailing" id="kn8-Lc-REl"/>
+                            <constraint firstItem="f9A-fa-5hm" firstAttribute="top" secondItem="N8d-jW-zwZ" secondAttribute="bottom" constant="29" id="mTE-Hp-h6Z"/>
+                            <constraint firstItem="f9A-fa-5hm" firstAttribute="leading" secondItem="WGl-GJ-dns" secondAttribute="leading" id="mXo-Dv-lnE"/>
+                            <constraint firstItem="Dca-Py-HbQ" firstAttribute="top" secondItem="WGl-GJ-dns" secondAttribute="bottom" constant="17" id="mpw-Qv-IAk"/>
+                            <constraint firstItem="n9N-ZM-ZZX" firstAttribute="leading" secondItem="lB1-ji-HfJ" secondAttribute="leading" constant="16" id="qap-u7-7bJ"/>
+                            <constraint firstItem="wqG-fO-vHL" firstAttribute="leading" secondItem="N8d-jW-zwZ" secondAttribute="trailing" constant="8" symbolic="YES" id="r8a-D9-BXr"/>
+                            <constraint firstAttribute="bottom" secondItem="sir-zF-DUo" secondAttribute="bottom" id="x0w-nS-YW7"/>
+                            <constraint firstItem="lB1-ji-HfJ" firstAttribute="bottom" secondItem="n9N-ZM-ZZX" secondAttribute="bottom" constant="20" id="xrT-Ni-s7m"/>
+                            <constraint firstItem="wqG-fO-vHL" firstAttribute="leading" secondItem="XkY-1T-Nn3" secondAttribute="leading" id="zQq-Fd-PRW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lB1-ji-HfJ"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="DTour" id="V44-P2-Rkf"/>
+                    <connections>
+                        <outlet property="bgNoLogo" destination="sir-zF-DUo" id="jtJ-c6-eV6"/>
+                        <outlet property="mapView" destination="Dca-Py-HbQ" id="rJF-vi-RVm"/>
+                        <outlet property="sprachSwitch" destination="hzx-JJ-f48" id="ECV-5t-PwP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="371.25" y="36.25"/>
+        </scene>
+        <!--Information-->
+        <scene sceneID="hGV-79-EeW">
+            <objects>
+                <viewController title="Information" id="2XT-ZC-n8I" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aAc-Ue-a4z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg__no_logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8Y8-DE-Fhz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TOUR.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5SN-Wc-tyl">
+                                <rect key="frame" x="16" y="87" width="382" height="318"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="5SN-Wc-tyl" secondAttribute="height" multiplier="343:285" id="GuX-I5-X5F"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b2c-3H-HSM">
+                                <rect key="frame" x="16" y="413" width="382" height="357"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Der 30-minütige Walk beginnt vor dem Schloss Ettersburg, als Teil des „Klassischen Weimar“ UNESCO-Welterbe. Das Schloss dient dabei als Vertreter dieses klassischen Weimars, hier hielten sich unter anderem Anna Amalia, Schiller und Goethe auf. Der Hörer startet mit dem Schloss hinter sich, vor sich der Blick in die “Zeitschneise”, einer Jagdschneise aus dem 18. Jahrhundert, die 1937 als Bezugslinie beim Bau des Konzentrationslagers diente. Später wurde sie zu einem begehbaren Weg ausgebaut, der Schloss Ettersburg und Buchenwald verbindet. Der Hörer allerdings begibt sich auf einen Weg durch den Wald, die pittoresk-artifizielle Atmosphäre um das Schloss weicht einem naturverbunden-persönlichem Waldspaziergang. Der Walk besteht aus drei Teilen: Dem Hörstück selbst – inklusive der Umgebungsgeräusche des Waldes zum Zeitpunkt seiner Entstehung, erfahrbar im virtuellen dreidimensionalen Raum; außerdem der Umgebung des Hörers und der Geräusche des Waldes im jeweiligen Moment sowie dem Körper des Zuhörers, welcher als erfahrendes und steuerndes Subjekt Teil der Inszenierung wird. Aus dem Zusammenspiel dieser Elemente ergibt sich das Werk als komplexes Wechselspiel. Der Hörer hört dabei “unter” sich die Aufnahme meiner Schritte und wird angehalten sich diesen anzupassen. So entsteht eine Verbindung von Nutzer und Künstler, die sich am Ende brechen kann: Ist der Walk beendet und der Hörer sozusagen wieder auf sich allein gestellt, kann dies Fragen evozieren wie: Was brachte mich dazu, halt- und fraglos einer Stimme zu folgen? Was lasse ich mir sagen (und glaube es)? Wie beeinflussbar bin ich?
+Während der Hörer also den Anweisungen meiner Stimme folgend durch den Wald geht, dreht sich der Walk inhaltlich um die Bilder, mit denen der Hörer sich in Buchenwald konfrontiert sehen wird. 
+Die Arbeit beschäftigt sich mit Bildern des Holocaust, jeder Art bildlicher Zeugnisse. Dabei wähle ich bewusst die Form des Audiowalks, eines Mediums, das dem Nutzer keine artifiziellen Bilder präsentiert, ihn aber trotzdem visuell fordert und lenkt. So will ich mich der Frage nähern, welche Bilder sich wie im Hirn abspeichern und wie man diese reflektieren, hinterfragen und kontextualisieren kann; am Ende ist das Ziel der Anstoß zu einem differenzierten Betrachten Buchenwalds, den dortigen Ausstellungsflächen und den Holocaust-Bildern, die man selbst im Kopf hat.
+Während der Hörer durch den Wald läuft und seine reale, sowie virtuelle Umgebung wahrnimmt, versucht das Hörstück des Walks also, ihn für innere wie äußere, eigene und kollektive Bilder zu sensibilisieren. Das Hörstück selbst kann aus Soundbites der Vergangenheit, eingesprochenen Passagen, Interviews und Musik bestehen. 
+Dabei verändert sich die Umgebung und die Friedlichkeit des Waldes wird durchbrochen von ersten Vorboten Buchenwalds. Der Hörer erreicht einen Bereich des Waldes, der zu einem Denkmal aus metallenen Stelen geworden ist und kurze Zeit später die Überreste des Außenzaunes und der Wachtürme. Bevor allerdings der Hauptbereich der Gedenkstätte erreicht wird, wirft der Hörer einen zweiten Blick durch die Zeitschneise – diesmal von der anderen Seite. So wird die Idylle des klassischen Weimar in gewisser Weise mit dem Holocaust verbunden, eine Diskrepanz die Weimar als Stadt mit vielen politischen Extremen in ihrer Geschichte auch anhängt. Über eine Treppe und einige weitere Meter Weg gelangt der Hörer schließlich relativ unvermittelt zum Hauptbereich, vor ihm eröffnet sich die Gedenkstätte. Hier endet der Walk und der Hörer kann sich frei in der Gedenkstätte bewegen. Ein Bus fährt nach Weimar oder zum Startpunkt der Tour zurück.
+</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2908592109" green="0.3239596287" blue="0.37461544689999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="b2c-3H-HSM" firstAttribute="leading" secondItem="5SN-Wc-tyl" secondAttribute="leading" id="5th-tP-Pyf"/>
+                            <constraint firstItem="8Y8-DE-Fhz" firstAttribute="leading" secondItem="aAc-Ue-a4z" secondAttribute="leading" id="DFt-Eb-xd6"/>
+                            <constraint firstItem="8Y8-DE-Fhz" firstAttribute="top" secondItem="aAc-Ue-a4z" secondAttribute="top" id="DNj-FM-98v"/>
+                            <constraint firstItem="5SN-Wc-tyl" firstAttribute="leading" secondItem="DZE-cA-pv4" secondAttribute="leading" constant="16" id="FJ5-aI-e7u"/>
+                            <constraint firstItem="b2c-3H-HSM" firstAttribute="trailing" secondItem="5SN-Wc-tyl" secondAttribute="trailing" id="Xsg-p3-RfR"/>
+                            <constraint firstAttribute="bottom" secondItem="8Y8-DE-Fhz" secondAttribute="bottom" id="d2b-zk-a9u"/>
+                            <constraint firstItem="5SN-Wc-tyl" firstAttribute="top" secondItem="DZE-cA-pv4" secondAttribute="top" constant="23" id="g9O-YN-Nvy"/>
+                            <constraint firstItem="b2c-3H-HSM" firstAttribute="top" secondItem="5SN-Wc-tyl" secondAttribute="bottom" constant="8" symbolic="YES" id="iYL-Fd-emC"/>
+                            <constraint firstItem="b2c-3H-HSM" firstAttribute="bottom" secondItem="DZE-cA-pv4" secondAttribute="bottom" constant="34" id="irZ-UL-T1I"/>
+                            <constraint firstItem="DZE-cA-pv4" firstAttribute="trailing" secondItem="5SN-Wc-tyl" secondAttribute="trailing" constant="16" id="l63-7D-FNZ"/>
+                            <constraint firstAttribute="trailing" secondItem="8Y8-DE-Fhz" secondAttribute="trailing" id="toR-gr-Vh4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DZE-cA-pv4"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="8Y8-DE-Fhz"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8aK-9g-4Pu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="986.39999999999998" y="43.596059113300491"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="aBf-K9-8Lt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Q7q-mc-bQZ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="3Cg-yG-fFw">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.82203543189999995" green="0.74915027619999996" blue="0.74120432140000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="barTintColor" red="0.2908592109" green="0.3239596287" blue="0.37461544689999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ER5-ia-fKr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KeD-Zv-Tcd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.800000000000001" y="36.206896551724142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TOUR.jpg" width="1500" height="1238"/>
+        <image name="bg__no_logo.jpg" width="1242" height="2208"/>
+        <image name="d.png" width="1024" height="1024"/>
+        <image name="infobutton.png" width="200" height="200"/>
+    </resources>
+</document>
