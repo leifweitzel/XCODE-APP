@@ -113,7 +113,7 @@ setLanguage()
         if let annotationTitle = view.annotation?.title
         {
             
-            if (annotationTitle! == "Start DTour") {
+            if (annotationTitle! == "Start Walk") {
                 
                showNavAlert()
             }
